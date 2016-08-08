@@ -7,7 +7,7 @@ We will be creating three modules:
 1. A **Depth-first Search** (DFS) module that takes a **graph** and traverses it depth-first.
 1. A **Breadth-first Search** (BFS) module that takes a **graph** and traverses it breadth-first.
 
-## Graph data structure Example
+## Graph data structure example
       A
       ^
      B C
@@ -23,17 +23,17 @@ Is represented in memory as:
           value: 'foo2',
           neighbors: [
             { name: 'D',
-              value: 'foo3',
+              value: 'foo4',
               neighbors: []
             },
             { name: 'E',
-              value: 'foo4',
+              value: 'foo5',
               neighbors: []
             }
           ]
         },
         { name: 'C',
-          value: 'foo5',
+          value: 'foo3',
           neighbors: [
             { name: 'F',
               value: 'foo6',
