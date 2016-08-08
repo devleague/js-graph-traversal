@@ -10,9 +10,9 @@ We will be creating three modules:
 ## Graph data structure example
       A
       ^
-     B C
-     ^ |
-    D E F
+    B   C
+    ^   |
+   D E  F
 
 Is represented in memory as:
 
@@ -67,7 +67,7 @@ The basic operations provided by a Depth-first Search usually include:
 1. `BFS(start, searchFor)`: Starting at the node `start` traverse the graph breadth-first and return an array of the shortest path between `start` and the node `searchFor`. If there are no matches, return `false`.
 
 ### Stretch Goals
-1. Write a blog post ELI5 explaining the differences between depth and breadth-first Search.
+1. Write a blog post ELI5 the differences between depth and breadth-first Search.
   1. Write Pseudocode for each implementation
   1. Explain the Big O notation for each method
   1. Provide examples of when you would favor one graph traversal algorithm over the other.
@@ -94,5 +94,3 @@ The basic operations provided by a Depth-first Search usually include:
 #### Graph Traversal Algorithms Implemented in JavaScript
 - Link: [Graph Traversal Algorithms Implemented in JavaScript](https://github.com/JoeKarlsson1/data-structures/tree/master/search-algorithms)
 - Concepts: *Graph Node*, *Graph theory*, *search* and *breadth first search*
-
-https://github.com/devleague/DevLeague-Modules/blob/master/-Algorithms/Search/searchAssignment.md
