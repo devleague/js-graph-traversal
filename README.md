@@ -8,11 +8,11 @@ We will be creating three modules:
 1. A **Breadth-first Search** (BFS) module that takes a **graph** and traverses it breadth-first.
 
 ## Graph data structure example
-      A
-      ^
-    B   C
-    ^   |
-   D E  F
+        A
+        ^
+      B   C
+      ^   |
+     D E  F
 
 Is represented in memory as:
 
