@@ -1,0 +1,20 @@
+{
+  "name": "js-graph-traversal",
+  "version": "1.0.0",
+  "description": "An exercise in traversing graphs in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devleague/js-graph-traversal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devleague/js-graph-traversal/issues"
+  },
+  "homepage": "https://github.com/devleague/js-graph-traversal#readme"
+}

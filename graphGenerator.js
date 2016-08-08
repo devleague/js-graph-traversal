@@ -1,0 +1,1 @@
+// Implement a graph generator that represents a set of objects where some pairs of objects are connected by links.
