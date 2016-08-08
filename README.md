@@ -1,6 +1,7 @@
 # Graph Traversal - An Intro to Depth and Breadth First Search
 
 We will be creating three modules:
+
 1. A **Graph Generator** module that helps us generate a **graph data structure**.
   1.  A **Graph** is a data structure that contains **nodes**
   1. **Nodes** are connected to each other via edges
