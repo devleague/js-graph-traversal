@@ -52,11 +52,6 @@ The basic operations provided by a graph data structure usually include:
 neighbors(G, x): lists all vertices such that there is an edge from the vertices x to y;
 1. `add_vertex(G, x)`: adds the vertex x, if it is not there;
 1. `remove_vertex(G, x)`: removes the vertex x, if it is there;
-1. `add_edge(G, x, y)`: adds the edge from the vertices x to y, if it is not there;
-1. `remove_edge(G, x, y)`: removes the edge from the vertices x to y, if it is there;
-1. `get_vertex_value(G, x)`: returns the value associated with the vertex x;
-1. `set_vertex_value(G, x, v)`: sets the value associated with the vertex x to v.
-
 
 ## Depth-first Search Methods
 The basic operations provided by a Depth-first Search usually include:
