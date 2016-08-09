@@ -49,10 +49,10 @@ Is represented in memory as:
 The basic operations provided by a graph data structure usually include:
 
 1. Define a `Node` class that has a `name`, `value`, and an array of `neighbors`
-1. `addNeighbors(node, [x, y, z ...])`: adds an array of nodes x, y, z to `node`.
-1. `adjacent(x, y)`: tests whether there is an edge from the vertices x to y.
-1. `neighbors(x, y)`: lists all vertices such that there is an edge from the vertices x to y.
-1. [Optional] `removeNode(x)`: removes the vertex x, if it is there.
+1. `Node.addNeighbors([x, y, z ...])`: adds an array of nodes x, y, z to `node`.
+1. `Node.adjacent(x, y)`: tests whether there is an edge from the vertices x to y.
+1. `Node.neighbors(x)`: lists all vertices such that there is an edge from the vertices x to y.
+1. [Optional] `Node.removeNode(x)`: removes the vertex x, if it is there.
 
 Using these example methods, you should be able to make the graph above like the following:
 
