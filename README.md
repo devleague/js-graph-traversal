@@ -85,6 +85,7 @@ The basic operations provided by a Depth-first Search usually include:
 1. Write Tests using `Mocha` and `Chai`.
 1. Implement a **Queue Module** for **Breadth-first search.**
 1. Implement a **Stack Module** for **Depth-first search.**
+1. Implement a **Remove Node** method for **Graph Generator** module.
 1. Write a recursive and non-recursive implementation of BFS and DFS.
 1. Visualize each method in the DOM.p
 
