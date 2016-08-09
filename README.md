@@ -54,6 +54,21 @@ The basic operations provided by a graph data structure usually include:
 1. `neighbors(x, y)`: lists all vertices such that there is an edge from the vertices x to y.
 1. [Optional] `removeNode(x)`: removes the vertex x, if it is there.
 
+Using these example methods, you should be able to make a graph like the following:
+
+    A = new Node("A")
+    B = new Node("B")
+    C = new Node("C")
+    D = new Node("D")
+    E = new Node("E")
+    F = new Node("F")
+    A.neighbors = [B, C]
+    B.neighbors = [D, E]
+    C.neighbors = [F]
+    D.neighbors = []
+    E.neighbors = []
+    F.neighbors = []
+
 ## Depth-first Search Methods
 The basic operations provided by a Depth-first Search usually include:
 
