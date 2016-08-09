@@ -50,7 +50,6 @@ The basic operations provided by a graph data structure usually include:
 
 1. Define a `Node` class that has a `name {{string}}`, `value{{}}`, and `neighbors{{array}}`
 1. `Node.addNeighbors([x {{node}}, y {{node}}, z {{node}} ...])`: adds an array of nodes x, y, z to `node`.
-1. `Node.adjacent(x {{node}}, y {{node}})`: tests whether there is an edge from the vertices x to y.
 1. `Node.neighbors(x {{node}})`: lists all vertices such that there is an edge from the vertices x to y.
 1. [Optional] `Node.removeNode(x {{node}})`: removes the vertex x, if it is there.
 
@@ -62,12 +61,12 @@ Using these example methods, you should be able to make the graph above like the
     D = new Node("D")
     E = new Node("E")
     F = new Node("F")
-    A.neighbors = [B, C]
-    B.neighbors = [D, E]
-    C.neighbors = [F]
-    D.neighbors = []
-    E.neighbors = []
-    F.neighbors = []
+    A.addNeighbors = [B, C]
+    B.addNeighbors = [D, E]
+    C.addNeighbors = [F]
+    D.addNeighbors = []
+    E.addNeighbors = []
+    F.addNeighbors = []
 
 ## Depth-first Search Methods
 The basic operations provided by a Depth-first Search usually include:
@@ -87,7 +86,7 @@ The basic operations provided by a Depth-first Search usually include:
 1. Implement a **Queue Module** for **Breadth-first search.**
 1. Implement a **Stack Module** for **Depth-first search.**
 1. Write a recursive and non-recursive implementation of BFS and DFS.
-1. Visualize each method in the DOM.
+1. Visualize each method in the DOM.p
 
 # Additional Resources
 
