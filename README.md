@@ -48,10 +48,10 @@ Is represented in memory as:
 ## Graph Methods
 The basic operations provided by a graph data structure usually include:
 
-1. `adjacent(G, x, y)`: tests whether there is an edge from the vertices x to y;
-neighbors(G, x): lists all vertices such that there is an edge from the vertices x to y;
-1. `add_vertex(G, x)`: adds the vertex x, if it is not there;
-1. `remove_vertex(G, x)`: removes the vertex x, if it is there;
+1. `adjacent(x, y)`: tests whether there is an edge from the vertices x to y;
+1. neighbors(x, y): lists all vertices such that there is an edge from the vertices x to y;
+1. `neighbors(node, [x, y, z ...])`: adds an array of nodes x, y, z to `node`.
+1. [Optional] `remove_vertex(G, x)`: removes the vertex x, if it is there;
 
 ## Depth-first Search Methods
 The basic operations provided by a Depth-first Search usually include:
@@ -85,8 +85,4 @@ The basic operations provided by a Depth-first Search usually include:
 
 #### Breadth First Search
 - Link: [Breadth First Search](https://en.wikipedia.org/wiki/Breadth-first_search)
-- Concepts: *Graph Node*, *Graph theory*, *search* and *breadth first search*
-
-#### Graph Traversal Algorithms Implemented in JavaScript
-- Link: [Graph Traversal Algorithms Implemented in JavaScript](https://github.com/JoeKarlsson1/data-structures/tree/master/search-algorithms)
 - Concepts: *Graph Node*, *Graph theory*, *search* and *breadth first search*
