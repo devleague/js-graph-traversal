@@ -54,7 +54,7 @@ The basic operations provided by a graph data structure usually include:
 1. `neighbors(x, y)`: lists all vertices such that there is an edge from the vertices x to y.
 1. [Optional] `removeNode(x)`: removes the vertex x, if it is there.
 
-Using these example methods, you should be able to make a graph like the following:
+Using these example methods, you should be able to make the graph above like the following:
 
     A = new Node("A")
     B = new Node("B")
