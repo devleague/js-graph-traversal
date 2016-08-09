@@ -55,12 +55,12 @@ The basic operations provided by a graph data structure usually include:
 
 Using these example methods, you should be able to make the graph above like the following:
 
-    A = new Node("A")
-    B = new Node("B")
-    C = new Node("C")
-    D = new Node("D")
-    E = new Node("E")
-    F = new Node("F")
+    let A = new Node("A")
+    let B = new Node("B")
+    let C = new Node("C")
+    let D = new Node("D")
+    let E = new Node("E")
+    let F = new Node("F")
     A.addNeighbors = [B, C]
     B.addNeighbors = [D, E]
     C.addNeighbors = [F]
