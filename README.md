@@ -48,19 +48,19 @@ Is represented in memory as:
 ## Graph Methods
 The basic operations provided by a graph data structure usually include:
 
-1. Define a `Node` class that has a `name {{string}}`, `value{{}}`, and `neighbors{{array}}`
+1. Define a `Node` class that has a `name {{string}}`, `value{{*}}`, and `neighbors{{array}}`
 1. `Node.addNeighbors([x {{node}}, y {{node}}, z {{node}} ...])`: adds an array of nodes x, y, z to `node`.
 1. `Node.neighbors(x {{node}})`: lists all vertices such that there is an edge from the vertices x to y.
 1. [Optional] `Node.removeNode(x {{node}})`: removes the vertex x, if it is there.
 
 Using these example methods, you should be able to make the graph above like the following:
 
-    let A = new Node("A")
-    let B = new Node("B")
-    let C = new Node("C")
-    let D = new Node("D")
-    let E = new Node("E")
-    let F = new Node("F")
+    let A = new Node("A", "foo1")
+    let B = new Node("B", "foo2")
+    let C = new Node("C", "foo3")
+    let D = new Node("D", "foo4")
+    let E = new Node("E", "foo5")
+    let F = new Node("F", "foo6")
     A.addNeighbors = [B, C]
     B.addNeighbors = [D, E]
     C.addNeighbors = [F]
