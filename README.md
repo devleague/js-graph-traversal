@@ -76,6 +76,15 @@ The basic operations provided by a Depth-first Search usually include:
 ## Breadth-first Search Methods
 1. `BFS(start)`: Starting at the node `start` traverse the graph breadth-first and return an array of the path that is traversed as. For example, in the graph above, `BFS(A)` should return `A,B,C,D,E,F`.
 
+## Getting Started
+1. Fork this repository and clone it from your personal GitHub Account
+1. In the Terminal, navigate to the newly created folder for this repository.
+1. Install dependencies by running the command: `npm install`
+1. Run tests by running the command: `npm test`
+1. Your work will be one in the file named: `graphGenerator.js`, `depthFirstSearch.js`, and `breadthFirstSearch.js`.
+1. Pay attention to the tests for hints on what Method names it expects.
+1. Make your tests pass!
+
 ### Stretch Goals
 1. Write a blog post ELI5 the differences between depth and breadth-first Search.
   1. Write Pseudocode for each implementation
@@ -87,15 +96,6 @@ The basic operations provided by a Depth-first Search usually include:
 1. Implement a **Remove Node** method for **Graph Generator** module.
 1. Write a recursive and non-recursive implementation of BFS and DFS.
 1. Visualize each method in the DOM.
-
-## Getting Started
-1. Fork this repository and clone it from your personal GitHub Account
-1. In the Terminal, navigate to the newly created folder for this repository.
-1. Install dependencies by running the command: `npm install`
-1. Run tests by running the command: `npm test`
-1. Your work will be one in the file named: `graphGenerator.js`, `depthFirstSearch.js`, and `breadthFirstSearch.js`.
-1. Pay attention to the tests for hints on what Method names it expects.
-1. Make your tests pass!
 
 
 # Additional Resources
