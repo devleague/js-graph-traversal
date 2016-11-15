@@ -88,6 +88,16 @@ The basic operations provided by a Depth-first Search usually include:
 1. Write a recursive and non-recursive implementation of BFS and DFS.
 1. Visualize each method in the DOM.
 
+## Getting Started
+1. Fork this repository and clone it from your personal GitHub Account
+1. In the Terminal, navigate to the newly created folder for this repository.
+1. Install dependencies by running the command: `npm install`
+1. Run tests by running the command: `npm test`
+1. Your work will be one in the file named: `graphGenerator.js`, `depthFirstSearch.js`, and `breadthFirstSearch.js`.
+1. Pay attention to the tests for hints on what Method names it expects.
+1. Make your tests pass!
+
+
 # Additional Resources
 
 #### Graph
