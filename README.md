@@ -49,7 +49,7 @@ Is represented in memory as:
 The basic operations provided by a graph data structure usually include:
 
 1. Define a `Node` class that has a `name {{string}}`, `value{{*}}`, and `neighbors{{array}}`
-1. `Node.addNeighbors([x {{node}}, y {{node}}, z {{node}} ...])`: adds an array of nodes x, y, z to `node`.
+1. `Node.addNeighbors([x {{node}}, y {{node}}, z {{node}} ...])`: adds an array of nodes x, y, z to `node`. Return an array with all of the nodes neighbors.
 1. `Node.neighbors(x {{node}})`: lists all vertices such that there is an edge from the vertices x to y.
 1. `Node.toString()`: returns the name of the node as a String.
 1. [Optional] `Node.removeNode(x {{node}})`: removes the vertex x, if it is there.

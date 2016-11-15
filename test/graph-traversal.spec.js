@@ -13,9 +13,6 @@ describe('Graph Generator', () => {
     D = new Node("D", "JSON");
     E = new Node("E", "Marifel");
     F = new Node("F", "Nigel");
-    A.addNeighbors([B, C]);
-    B.addNeighbors([D, E]);
-    C.addNeighbors([F]);
   });
 
   it('should be a function that exists', () => {
@@ -56,6 +53,9 @@ describe('Graph Generator', () => {
     expect(C.addNeighbors()).to.exist;
   });
   it('Node `neighbors` should refernce other neighbors', () => {
+    A.addNeighbors([B, C]);
+    B.addNeighbors([D, E]);
+    C.addNeighbors([F]);
     expect(A.neighbors[0].name).to.equal('B');
     expect(A.neighbors[0].value).to.equal('Jon');
     expect(A.neighbors[0].neighbors[0].name).to.equal('D');
