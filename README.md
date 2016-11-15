@@ -90,7 +90,6 @@ The basic operations provided by a Depth-first Search usually include:
   1. Write Pseudocode for each implementation
   1. Explain the Big O notation for each method
   1. Provide examples of when you would favor one graph traversal algorithm over the other.
-1. Write Tests using `Mocha` and `Chai`.
 1. Implement a **Queue Module** for **Breadth-first search.**
 1. Implement a **Stack Module** for **Depth-first search.**
 1. Implement a **Remove Node** method for **Graph Generator** module.
