@@ -46,7 +46,7 @@ Is represented in memory as:
     }
 
 ## Graph Methods
-The basic operations provided by a graph data structure usually include:
+The basic operations provided by a graph data structure include:
 
 1. Define a `Node` class that has a `name {{string}}`, `value{{*}}`, and `neighbors{{array}}`
 1. `Node.addNeighbors([x {{node}}, y {{node}}, z {{node}} ...])`: adds an array of nodes x, y, z to `node`. Return an array with all of the nodes neighbors.
