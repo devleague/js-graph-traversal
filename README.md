@@ -74,7 +74,7 @@ The basic operations provided by a Depth-first Search usually include:
 
 
 ## Breadth-first Search Methods
-1. `BFS(start, searchFor)`: Starting at the node `start` traverse the graph breadth-first and return an array of the shortest path between `start` and the node `searchFor`. If there are no matches, return `false`.
+1. `BFS(start)`: Starting at the node `start` traverse the graph breadth-first and return an array of the path that is traversed as. For example, in the graph above, BFS(A) should return `A,B,C,D,E,F`.
 
 ### Stretch Goals
 1. Write a blog post ELI5 the differences between depth and breadth-first Search.
