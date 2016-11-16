@@ -117,11 +117,11 @@ describe('Breadth First Search', () => {
     expect(BFS).to.be.a('function');
   });
   it('should return the traversal path from the starting point all the way to the end', () => {
-    expect(BFS(A).toString()).to.equal("A,B,C,D,E,F");
-    expect(BFS(B).toString()).to.equal("B,D,E");
-    expect(BFS(C).toString()).to.equal("C,F");
-    expect(BFS(D).toString()).to.equal("D");
-    expect(BFS(E).toString()).to.equal("E");
-    expect(BFS(F).toString()).to.equal("F");
+    expect(BFS(A)).to.equal("[A,B,C,D,E,F]");
+    expect(BFS(B)).to.equal("[B,D,E]");
+    expect(BFS(C)).to.equal("[C,F]");
+    expect(BFS(D)).to.equal("[D]");
+    expect(BFS(E)).to.equal("[E]");
+    expect(BFS(F)).to.equal("[F]");
   });
 });

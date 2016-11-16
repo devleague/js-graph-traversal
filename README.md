@@ -50,8 +50,7 @@ The basic operations provided by a graph data structure include:
 
 1. Define a `Node` class that has a `name {{string}}`, `value{{*}}`, and `neighbors{{array}}`
 1. `Node.addNeighbors([x {{node}}, y {{node}}, z {{node}} ...])`: adds an array of nodes x, y, z to `node`. Return an array with all of the nodes neighbors.
-1. `Node.neighbors(x {{node}})`: lists all vertices such that there is an edge from the vertices x to y.
-1. `Node.toString()`: returns the name of the node as a String.
+1. `Node.getNeighbors(x {{node}})`: lists all vertices such that there is an edge from the vertices x to y.
 1. [Optional] `Node.removeNode(x {{node}})`: removes the vertex x, if it is there.
 
 Using these example methods, you should be able to make the graph above like the following:
@@ -74,7 +73,7 @@ The basic operations provided by a Depth-first Search usually include:
 
 
 ## Breadth-first Search Methods
-1. `BFS(start)`: Starting at the node `start` traverse the graph breadth-first and return an array of the path that is traversed as. For example, in the graph above, `BFS(A)` should return `A,B,C,D,E,F`.
+1. `BFS(start)`: Starting at the node `start` traverse the graph breadth-first and return an array of the path that is traversed as. For example, in the graph above, `BFS(A)` should return `[A,B,C,D,E,F]`.
 
 ## Getting Started
 1. Fork this repository and clone it from your personal GitHub Account
