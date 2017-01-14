@@ -7,12 +7,12 @@ const DFS = require('../depthFirstSearch');
 
 describe('Graph Generator', () => {
   beforeEach(() => {
-    A = new Node("A", "Joe");
-    B = new Node("B", "Jon");
-    C = new Node("C", "Ray");
-    D = new Node("D", "JSON");
-    E = new Node("E", "Marifel");
-    F = new Node("F", "Nigel");
+    let A = new Node("A", "Joe");
+    let B = new Node("B", "Jon");
+    let C = new Node("C", "Ray");
+    let D = new Node("D", "JSON");
+    let E = new Node("E", "Marifel");
+    let F = new Node("F", "Nigel");
   });
 
   it('should be a function that exists', () => {
