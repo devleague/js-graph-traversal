@@ -69,11 +69,11 @@ Using these example methods, you should be able to make the graph above like the
 
 
 ## Depth-first Search Methods
-1. `DFS(start, searchFor)`: Starting at the `node` `start`, traverse the graph depth-first and return the `node` whos name matches `searchFor`. If there are no matches, return `false`.
+`DFS(start, searchFor)`: Starting at the `node` `start`, traverse the graph depth-first and return the `node` whos name matches `searchFor`. If there are no matches, return `false`.
 
 
 ## Breadth-first Search Methods
-1. `BFS(start)`: Starting at the `node` `start` traverse the graph breadth-first and return an array of the path that is traversed as. For example, in the graph above, `BFS(A)` should return `[A,B,C,D,E,F]`.
+`BFS(start)`: Starting at the `node` `start` traverse the graph breadth-first and return an array of the path that is traversed as. For example, in the graph above, `BFS(A)` should return `[A,B,C,D,E,F]`.
 
 
 ## Getting Started
