@@ -8,6 +8,7 @@ We will be creating three modules:
 1. A **Depth-first Search** (DFS) module that takes a **graph** and traverses it depth-first.
 1. A **Breadth-first Search** (BFS) module that takes a **graph** and traverses it breadth-first.
 
+
 ## Graph data structure example
         A
         ^
@@ -45,6 +46,7 @@ Is represented in memory as:
       ]
     }
 
+
 ## Graph Methods
 The basic operations provided by a graph data structure include:
 
@@ -67,13 +69,12 @@ Using these example methods, you should be able to make the graph above like the
 
 
 ## Depth-first Search Methods
-The basic operations provided by a Depth-first Search usually include:
-
-1. `DFS(start, searchFor)`: Starting at the `node`, `start`, traverse the graph depth-first and return the `node` whos name matches `searchFor`. If there are no matches, return `false`.
+1. `DFS(start, searchFor)`: Starting at the `node` `start`, traverse the graph depth-first and return the `node` whos name matches `searchFor`. If there are no matches, return `false`.
 
 
 ## Breadth-first Search Methods
 1. `BFS(start)`: Starting at the `node` `start` traverse the graph breadth-first and return an array of the path that is traversed as. For example, in the graph above, `BFS(A)` should return `[A,B,C,D,E,F]`.
+
 
 ## Getting Started
 1. Fork this repository and clone it from your personal GitHub Account
@@ -86,6 +87,7 @@ The basic operations provided by a Depth-first Search usually include:
   * `breadthFirstSearch.js`
 1. Pay attention to the tests for hints.
 1. Make your tests pass!
+
 
 ### Stretch Goals
 1. Write a blog post ELI5 the differences between depth and breadth-first Search.
