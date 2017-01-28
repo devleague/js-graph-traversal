@@ -198,11 +198,11 @@ describe('Breadth First Search', () => {
   });
 
   it('should return the traversal path from the starting point all the way to the end', () => {
-    expect(BFS(A)).to.equal("[A,B,C,D,E,F]");
-    expect(BFS(B)).to.equal("[B,D,E]");
-    expect(BFS(C)).to.equal("[C,F]");
-    expect(BFS(D)).to.equal("[D]");
-    expect(BFS(E)).to.equal("[E]");
-    expect(BFS(F)).to.equal("[F]");
+    expect(BFS(A)).to.deep.equal(["A","B","C","D","F"]);
+    expect(BFS(B)).to.deep.equal(["B","D","E"]);
+    expect(BFS(C)).to.deep.equal(["C","F"]);
+    expect(BFS(D)).to.deep.equal(["D"]);
+    expect(BFS(E)).to.deep.equal(["E"]);
+    expect(BFS(F)).to.deep.equal(["F"]);
   });
 });
