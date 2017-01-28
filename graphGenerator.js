@@ -1,6 +1,3 @@
-const Node = function(name, value) {
-
+module.exports = class Node {
+  constructor() {}
 }
-
-
-module.exports = Node;
