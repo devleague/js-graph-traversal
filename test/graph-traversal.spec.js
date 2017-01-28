@@ -157,10 +157,13 @@ describe('Depth First Search', () => {
     expect(DFS).to.be.a('function');
   });
 
-  it('should return the name of the node with the value stored in it', () => {
-    expect(DFS(A, "JSON").name).to.equal("D");
-    expect(DFS(A, "Nigel").name).to.equal("F");
-    expect(DFS(B, "Marifel").name).to.equal("E");
+  it('should return the node with the value of `searchFor` stored in its value property', () => {
+    expect(DFS(A, "D").value).to.equal("JSON");
+    expect(DFS(A, "D").name).to.equal("D");
+    expect(DFS(A, "F").value).to.equal("Nigel");
+    expect(DFS(A, "F").name).to.equal("F");
+    expect(DFS(B, "E").value).to.equal("Marifel");
+    expect(DFS(A, "E").name).to.equal("E");
   });
 
   it('should return false if it cant find the value in the graph', () => {
