@@ -65,6 +65,12 @@ describe('Graph Generator', () => {
     expect(C.addNeighbors()).to.exist;
   });
 
+it('Node should have a method `getNeighbors`', () => {
+    expect(A.getNeighbors()).to.exist;
+    expect(B.getNeighbors()).to.exist;
+    expect(C.getNeighbors()).to.exist;
+  });
+
   it('Node `neighbors` should refernce other neighbors', () => {
     A.addNeighbors([B, C]);
     B.addNeighbors([D, E]);
