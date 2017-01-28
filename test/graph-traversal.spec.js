@@ -36,6 +36,9 @@ describe('Graph Generator', () => {
     expect(A.name).to.exist;
     expect(B.name).to.exist;
     expect(C.name).to.exist;
+    expect(A.name).to.be.an('String');
+    expect(B.name).to.be.an('String');
+    expect(C.name).to.be.an('String');
     expect(A.name).to.equal('A');
     expect(B.name).to.equal('B');
     expect(C.name).to.equal('C');
@@ -54,9 +57,18 @@ describe('Graph Generator', () => {
     expect(A.neighbors).to.exist;
     expect(B.neighbors).to.exist;
     expect(C.neighbors).to.exist;
+    expect(D.neighbors).to.exist;
+    expect(E.neighbors).to.exist;
+    expect(F.neighbors).to.exist;
+  });
+
+  it('Node property `neighbors` should be initialized to an empty array', () => {
     expect(A.neighbors).to.be.an('Array');
     expect(B.neighbors).to.be.an('Array');
     expect(C.neighbors).to.be.an('Array');
+    expect(A.neighbors).to.deep.equal([]);
+    expect(B.neighbors).to.deep.equal([]);
+    expect(C.neighbors).to.deep.equal([]);
   });
 
   it('Node should have a method `addNeighbors`', () => {
@@ -65,10 +77,40 @@ describe('Graph Generator', () => {
     expect(C.addNeighbors()).to.exist;
   });
 
-it('Node should have a method `getNeighbors`', () => {
+  it('Node method `addNeighbors` should return an array', () => {
+    expect(A.addNeighbors([])).to.be.an('Array');
+    expect(B.addNeighbors([])).to.be.an('Array');
+    expect(C.addNeighbors([])).to.be.an('Array');
+  });
+
+  it('Node method `addNeighbors` should return an array of Nodes', () => {
+    A.addNeighbors([B,C])
+    expect(A.neighbors[0].name).to.equal('B');
+    expect(A.neighbors[0].value).to.equal('Jon');
+    expect(A.neighbors[1].name).to.equal('C');
+    expect(A.neighbors[1].value).to.equal('Ray');
+
+    A.addNeighbors([D,E])
+    expect(A.neighbors[0].name).to.equal('B');
+    expect(A.neighbors[0].value).to.equal('Jon');
+    expect(A.neighbors[1].name).to.equal('C');
+    expect(A.neighbors[1].value).to.equal('Ray');
+    expect(A.neighbors[2].name).to.equal('D');
+    expect(A.neighbors[2].value).to.equal('JSON');
+    expect(A.neighbors[3].name).to.equal('E');
+    expect(A.neighbors[3].value).to.equal('Marifel');
+  });
+
+  it('Node should have a method `getNeighbors`', () => {
     expect(A.getNeighbors()).to.exist;
     expect(B.getNeighbors()).to.exist;
     expect(C.getNeighbors()).to.exist;
+    expect(A.getNeighbors()).to.be.an('Array');
+    expect(B.getNeighbors()).to.be.an('Array');
+    expect(C.getNeighbors()).to.be.an('Array');
+    expect(A.getNeighbors()).to.deep.equal([]);
+    expect(B.getNeighbors()).to.deep.equal([]);
+    expect(B.getNeighbors()).to.deep.equal([]);
   });
 
   it('Node `neighbors` should refernce other neighbors', () => {
